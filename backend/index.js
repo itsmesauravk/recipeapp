@@ -49,6 +49,11 @@ database();
 
 // startServer()
 
+// home
+app.get('/',(req,res)=>{
+    res.send('Welcome to MakeHub API')
+})
+
 app.listen(port, ()=>{
     console.log("Server Is Running on port ",port)
 })
