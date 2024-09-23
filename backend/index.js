@@ -1,6 +1,6 @@
 const app = require('./app');
 
-const ACTIVE_CONNECTIONS = [];
+// const ACTIVE_CONNECTIONS = [];
 
 
 // const sendLikeNotification = (recipe) => {
@@ -14,9 +14,9 @@ const ACTIVE_CONNECTIONS = [];
 
 const port = process.env.PORT || 8000;
 
-const http = require('http');
+// const http = require('http');
 
-const mainServer = http.createServer(app);
+// const mainServer = http.createServer(app);
 
 const database = require('./database/index')
 database();
