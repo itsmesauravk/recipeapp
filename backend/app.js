@@ -48,6 +48,11 @@ app.use('/api', botRoutes);
     res.send('I am alive');
     });
 
+// home
+app.get('/',(req,res)=>{
+    res.send('Welcome to MakeHub API')
+})
+
 
  
 
